@@ -31,7 +31,7 @@ tea = {
     isHot: true
 }
 
-// Interface
+// Interface -> It is a way to define the structure of an object. It is similar to type alias but it can also be used to define the structure of a class. It can also be extended to create new interfaces.
 interface user {
     name: string,
     age: number,
@@ -85,4 +85,18 @@ const requiredUser: RequiredUserProfile = {
     name: "Aashish",
     age: 20,
     email: "aashish@example.com"
+}
+
+interface TeacMachine {
+    start(): void;
+    stop(): void;
+}
+
+const machine: TeacMachine = {
+    start() {
+        console.log("Tea machine started");
+    },
+    stop() {
+        console.log("Tea machine stopped");
+    }  
 }
