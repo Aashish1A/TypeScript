@@ -11,7 +11,7 @@
 
 // const masalaChai = new Chai("Masala", 10);
 
-// Access modifiers: public, private, protected
+// Access modifiers: public, private, protected -> public: accessible from anywhere, private: accessible only within the class, protected: accessible within the class and its subclasses
 class Chai {
     public flavor: string = "masala"
 

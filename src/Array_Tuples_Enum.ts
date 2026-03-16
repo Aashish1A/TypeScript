@@ -43,7 +43,7 @@ const readonlyChaiOrder: readonly [string, number] = ['Masala', 2.5];
 type ChaiOrder = [flavour: string, price: number];
 const namedChaiOrder: ChaiOrder = ['Masala', 2.5];
 
-// Enum
+// Enum -> A way to define a set of named constants
 enum cupSize{
     SMALL,
     MEDIUM,
